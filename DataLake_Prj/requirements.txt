@@ -1,0 +1,10 @@
+Authlib
+pandas
+requests
+python-dotenv
+openpyxl
+rich
+mysql-connector-python
+pydantic
+sqlalchemy
+pypika

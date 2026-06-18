@@ -1,0 +1,16 @@
+{
+    "name": "jc_frontend-backend",
+    "version": "0.0.1",
+    "scripts": {
+        "frontend-dev": "cd ./frontend & npm run dev",
+        "frontend-code": "cd ./frontend & code .",
+        "frontend-build": "cd ./frontend & npm run build",
+        "backend-dev": "cd ./backend & flask --app app run",
+        "backend": "cd ./backend & python -m app",
+        "backend-debug": "cd ./backend & python -m debugpy --listen 0.0.0.0:5678 app.py",
+        "backend-live": "cd ./backend & waitress-serve --host 0.0.0.0 --port 8080 app:app",
+        "backend-code": "cd ./backend & code .",
+        "backend-exe": "cd ./backend & pyinstaller --onefile -w --add-data \"static;static\" app.py",
+        "backend-exe2": "cd ./backend & pyinstaller --onefile -w --console --add-data \"static;static\" app.py"
+    }   
+}

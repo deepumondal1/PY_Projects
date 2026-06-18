@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# My gitignore
+**/.env/
+**/.env1/
+**/.env_face_recog/
+**/node_modules/
+**/test/
+**/.next/
+**/_next/
+**/static/
+**/static2/
+**/dist/
+**/build/
+**/myfolder/
+**/__pycache__/
+**/.vscode/
+**/test.txt
+**file.txt
+**/test.xlsx
+**/~$test.xlsx
+
+**/Input/
+**/Output/
+
+# Ignore Folder
+KNeo_Prj/
+zCustomTkinterBuilder-main/
+Apache_Airflow/
+mcp_server1_Prj/
+PDFtoDocx_Prj/
+SS_PackingList/
+SS_WORKING/
